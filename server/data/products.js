@@ -1,0 +1,43 @@
+const products = [
+  {
+    name: 'PC Portable HP ProBook 450 G9',
+    image: '/images/hp-probook-450-g9.jpg',
+    brand: 'HP',
+    category: 'Portables',
+    description: 'Un ordinateur portable professionnel performant et fiable, idéal pour les entreprises et les étudiants.',
+    specs: 'Intel Core i5, 8Go RAM, 256Go SSD, Ecran 15.6" Full HD',
+    rating: 4.5,
+    numReviews: 12,
+    price: 450000,
+    countInStock: 15,
+    warranty: '1 an constructeur',
+  },
+  {
+    name: 'Souris Gamer Logitech G502 HERO',
+    image: '/images/logitech-g502.jpg',
+    brand: 'Logitech',
+    category: 'Accessoires',
+    description: 'Souris gaming haute performance avec capteur HERO 25K, 11 boutons programmables et poids ajustable.',
+    specs: 'Capteur optique HERO 25K, Résolution 100 – 25 600 dpi, Poids 121g',
+    rating: 4.8,
+    numReviews: 89,
+    price: 45000,
+    countInStock: 30,
+    warranty: '6 mois',
+  },
+  {
+    name: 'Imprimante Multifonction Epson EcoTank L3250',
+    image: '/images/epson-l3250.jpg',
+    brand: 'Epson',
+    category: 'Imprimantes',
+    description: 'Imprimante 3-en-1 ultra économique avec réservoirs d\'encre rechargeables, Wi-Fi Direct et impression mobile.',
+    specs: 'Impression, Numérisation, Copie, Vitesse d\'impression 10 pages/min (N&B), Wi-Fi',
+    rating: 4.2,
+    numReviews: 25,
+    price: 135000,
+    countInStock: 8,
+    warranty: '1 an Abstergo',
+  },
+];
+
+export default products;
