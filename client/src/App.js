@@ -1,23 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import HomeScreen from './screens/HomeScreen';
+import './App.css'; // On importe le fichier CSS
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <header className="app-header">
+        <div className="container">
+          <h2>Abstergo Store</h2>
+        </div>
       </header>
+      <main className="container">
+        <HomeScreen />
+      </main>
+      <footer className="app-footer">
+        <div className="container">
+          <p>Copyright &copy; Abstergo Store</p>
+        </div>
+      </footer>
     </div>
   );
 }
